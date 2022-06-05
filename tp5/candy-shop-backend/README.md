@@ -3,6 +3,10 @@
 This is infrastrcture as code project Generated using the AWS CDK.
 Its main functionality is to translate TS code into Cloudformation Template and deploy it on AWS.
 
+## AWS CDK 
+
+The AWS Cloud Development Kit (AWS CDK) is an open-source next generation software development framework to define cloud application resources using familiar programming languages.
+
 ## Project Parts
 
 This Project is devided into services, a comman API Gateway alongside with DyanamoDB table. It relies on constructs to devide the resource into relevant groups.
@@ -17,11 +21,20 @@ The main interest in testing CDK projects is :
 
 - Unti Testing Lambda functions
 
-- Testing Code Generation
+- Integration Testing : Template Code Generation
 
 - Static testing using CDK Nag for security and best practises
 
 - System Testing using task cat
+
+
+### Unit testing
+
+### Template code generation
+
+### Static testing with CDK Nag
+
+### System Testing using task cat
 
 ## Devops Project
 
